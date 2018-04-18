@@ -1,0 +1,39 @@
+/*导航*/
+.header-nav{
+	background-color: #1E2429;
+	border-color: #1E2429;
+	position:fixed;
+	z-index: 9999;
+	width: 100%;
+}
+.nav-container{
+	padding-right: 0px;
+  	padding-left: 0px;
+  	margin-right: 0;
+  	margin-left: 0;
+	width: 100%;
+	
+}
+
+.header-nav .navbar-nav>li>a:hover, 
+.navmenu-default .navmenu-nav>li>a:focus, 
+.header-nav  .navbar-nav>li>a:focus {
+color: #C59A6D;
+background-color: transparent;
+}
+.nav > li {
+position: relative;
+display: block;
+text-align: center;
+}
+.header-nav .navbar-nav>li>a{
+color: #ffffff;
+text-transform: uppercase;
+font-size: 20px;
+line-height: 30px;
+}
+
+#head-nav{
+	/*border: 3px solid red;*/
+	/*float:left;*/
+}
